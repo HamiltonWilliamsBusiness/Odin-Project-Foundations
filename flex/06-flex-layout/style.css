@@ -25,3 +25,40 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution */
+
+ul, .header {
+  display: flex;
+  }
+
+ul {
+  gap: 20px;
+  padding: 0px 10px;
+}
+ .right-links {
+  margin-left: auto;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+ li {
+  list-style: none;
+ }
+
+ .content {
+  margin-top: 200px;
+  text-align: center;
+ }
+
+ .footer{
+  margin-top: 410px;
+  display: flex;
+  background-color: #D3D3D3;
+ }
+
+
+
