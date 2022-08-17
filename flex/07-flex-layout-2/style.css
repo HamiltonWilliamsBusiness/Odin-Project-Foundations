@@ -44,9 +44,10 @@ body {
 
  .sidebar {
   display: flex;
-  padding-bottom: 730px;
+  padding-bottom: 680px;
   width: 300px;
   flex-shrink: 0;
+  font-size: 24px;
  }
 
   ul {
@@ -66,18 +67,32 @@ body {
 
 .container {
   display: flex;
+  align-items: center;
 }
 .cardz {
   display: flex;
   flex-direction: row;
   flex: 0 1 auto;
   flex-wrap: wrap;
-  gap: 100px
+  gap: 30px; 
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .card {
+  text-align: left;
+  height: 320px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.footer{
+  flex-shrink: 0;
+  width: 1920px;
+  height: 50px;
   text-align: center;
-  border-color: black;
-  height: 200px;
-  width: 500px;
+  box-sizing: border-box;
+  padding-top: 17px;
+  background: #eee;
 }
